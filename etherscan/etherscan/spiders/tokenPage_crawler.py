@@ -69,8 +69,3 @@ class ethToken(CrawlSpider):
         item['holders'] = holders
         item['token_page'] = token_page
         yield item
-
-        BOT_NAME = 'etherscan'
-
-        SPIDER_MODULES = ['etherscan.spiders']
-        NEWSPIDER_MODULE = 'etherscan.spiders'
